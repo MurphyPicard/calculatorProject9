@@ -3,41 +3,63 @@ h1 {
 }
 
 .calc {
-  background-color: grey;
+  background-color: #444;
   height: 390px;
-  width: 300px;
-  border: 1px solid black;
+  width: 360px;
+  border: 1px solid #000;
   border-radius: 5%;
   margin: 0 auto;
 }
 
 .display {
-  background-color: green;
+  background-color: #cfc;
   height: 80px;
-  width: 270px;
-  border: 1px solid black;
+  width: 320px;
+  border: 1px solid #000;
   border-radius: 20%;
   margin: 15px auto;
-  font-size: 20px;
-  text-align: right;
+  padding: 5px;
+  font-size: 70px;
   display: flex;
   align-items: flex-end;
+  justify-content: flex-end;
 }
 
 .flex-container {
     display: -webkit-flex;
     display: flex;
-    width: 290px;
-    height: 250px;
-    background-color: black;
+    height: 260px;
+    width: 330px;
+    background-color: #444;
     margin: 0 auto;
     margin-top: 20px;
     flex-wrap: wrap;
 }
 
 .flex-item {
-    background-color: lightgrey;
-    width: 60px;
+    background-color: #ccc;
+    width: 58px;
     height: 50px;
-    margin: 6px;
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.blueButtons{
+  background-color: lightblue;
+}
+
+.pinkButtons{
+  background-color: pink;
+}
+
+#sqRootImage, #timesImage, #divideImage{
+  height: 60%;
+  width: 60%;
+}
+
+#equals{
+  background-color: orange;
 }
