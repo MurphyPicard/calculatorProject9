@@ -4,12 +4,49 @@
     <meta charset="utf-8">
     <title>Calculator</title>
     <link rel="stylesheet" type="text/css" href="theme.css">
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   </head>
   <body>
 
-    <h1>hi</h1>
-    
+
+    <hr>
+    <h1 id="intro">Try this out first.</h1>
+    <input id="firstNum" type="number" placeholder="first number">
+    <input id="secondNum" type="number" placeholder="second number">
+    <button onclick="handlers.add()" type="button" name="button">Add</button>
+    <button onclick="handlers.subtract()" type="button" name="button">Subtract</button>
+    <button onclick="handlers.multiply()" type="button" name="button">Multiply</button>
+    <button onclick="handlers.divide()" type="button" name="button">Divide</button>
+    <h1 id="answer">Answer goes here.</h1>
+    <hr>
+    <hr>
+    <img src="https://compass1.org/wp-content/uploads/2015/06/Calculator_clipped_rev_1-285x300.png" alt="">
+    <hr>
+    <h1>Now for the project.</h1>
+    <div class="calc">
+      <div class="display">0</div>
+
+      <div class="flex-container">
+        <div id="seven" class="flex-item">flex item 7</div>
+        <div id="eight" class="flex-item">flex item 8</div>
+        <div id="nine" class="flex-item">flex item 9</div>
+        <div id="divide" class="flex-item">flex item /</div>
+        <div id="four" class="flex-item">flex item 4</div>
+        <div id="five" class="flex-item">flex item 5</div>
+        <div id="six" class="flex-item">flex item 6</div>
+        <div id="times" class="flex-item">flex item x</div>
+        <div id="one" class="flex-item">flex item 1</div>
+        <div id="two" class="flex-item">flex item 2</div>
+        <div id="three" class="flex-item">flex item 3</div>
+        <div id="minus" class="flex-item">flex item -</div>
+        <div id="zero" class="flex-item">flex item 0</div>
+        <div id="point" class="flex-item">flex item .</div>
+        <div id="plus" class="flex-item">flex item +</div>
+        <div id="equals" class="flex-item">flex item =</div>
+      </div>
+
+    </div>
+
     <script src="app.js" charset="utf-8"></script>
   </body>
 </html>
